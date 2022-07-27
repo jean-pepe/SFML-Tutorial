@@ -6,15 +6,15 @@ download [SFML](https://www.sfml-dev.org/download.php) and unpack the SFML archi
 # Create a new project
 Open Open Visual Studio and click on Create new project, choose Empty project (C++) 
 
-![](https://imgur.com/o2HQIQt)
+![](https://i.imgur.com/o2HQIQt.jpeg)
 
 Give the name you want, for instance SFML_example
 
-![](https://imgur.com/tSN9m83)
+![](https://i.imgur.com/tSN9m83.jpeg)
 
 Now the project is empty, with Ctrl+Shit+A we can make a new file and name it main.cpp
 
-![](https://imgur.com/T0FPSzN)
+![](https://i.imgur.com/T0FPSzN.jpeg)
 
 
 # Setup VS
@@ -25,9 +25,9 @@ add:
 
  - The path to the SFML libraries (<sfml-install-path>/lib) to Linker » General » Additional Library Directories
 
-![](https://imgur.com/undefined)
+![](https://i.imgur.com/zwu0tff.jpeg)
 
-![](https://imgur.com/t0Xnz4M)
+![](https://i.imgur.com/t0Xnz4M.jpeg)
 
 The next step is to link the application to the SFML libraries (.lib files) that code will need. SFML is made of 5 modules (system, window, graphics, network and audio), and there's one library for each of them.
 Libraries must be added in the project's properties, in Linker » Input » Additional Dependencies.
@@ -35,12 +35,12 @@ Libraries must be added in the project's properties, in Linker » Input » Addit
 For the moment "sfml-graphics.lib", "sfml-window.lib" and "sfml-system.lib" And add the right Dependencies "freetype.lib", "winmm.lib" and "opengl32.lib"
 It is important to link to the libraries that match the configuration: "sfml-xxx-d.lib" for Debug, and "sfml-xxx.lib" for Release.
 
-![Debug](https://imgur.com/7TIPYPD)
+![Debug](https://i.imgur.com/7TIPYPD.jpeg)
 
-![Release](https://imgur.com/2DzxYgL)
+![Release](https://i.imgur.com/2DzxYgL.jpeg)
 
 for last to define the SFML_STATIC macro in the preprocessor options of the project.
-![](https://imgur.com/dWyNryS)
+![](https://i.imgur.com/dWyNryS.jpeg)
 
 Now VS should be ready to use SFML, you can try with the follow code :
 ```
