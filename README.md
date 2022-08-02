@@ -9,7 +9,6 @@ with an [OOP][^1](https://en.wikipedia.org/wiki/Object-oriented_programming) app
 work in progress
 TODO
 - [x] [setup SFML on microsoft visual studio](section_0/0.md)
-- [ ] Getting started
 - [ ] first window
 - [ ] Sprite & Textures
 - [ ] .....
