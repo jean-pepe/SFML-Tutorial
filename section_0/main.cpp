@@ -11,9 +11,7 @@ int main()
                 window.close();
         }
 
-        // clear the window with black color
         window.clear();
-        // end the current frame
         window.display();
     }
     return 0;
